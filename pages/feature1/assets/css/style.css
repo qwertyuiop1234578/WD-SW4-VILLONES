@@ -1,0 +1,131 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+width: 100vw;
+display: flex;
+justify-content: space-between;
+padding: 0 10vw;
+height: calc(50px + 1rem);
+align-items: center;
+background: black;
+
+& > img.frey {
+  height: 30px;
+  padding: 0.2rem 0;
+  transition: all 0.3s ease;
+
+}
+
+& > nav.navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  & > a.navigation-content {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    transition: 0.2s ease;
+
+    &:hover {
+      background: rgb(160, 118, 28);
+    }
+  }
+}
+}
+.ring{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 99.9%;
+    height: 160%;
+    overflow: hidden;
+    opacity: 70%;
+}
+
+.img-holder1{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.content1{
+    margin-top: -10%;
+    margin-left: 45%;
+}
+
+.img-holder2{
+    margin-top: 10%;
+    margin-left: 55%;
+}
+
+.content2{
+    margin-top: -12%;
+    text-align: justify;
+}
+
+.img-holder3{
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+.content3{
+    margin-top: -10%;
+    margin-left: 45%;
+    text-align: justify;
+}
+
+body{
+    padding-bottom: 1%;
+}
+
+
+footer{
+width: 100vw;
+display: flex;
+justify-content: space-between;
+padding: 0 10vw;
+height: calc(50px + 1rem);
+align-items: center;
+background: black;
+position: absolute;
+bottom: -77%;
+
+& > img.frey {
+  height: 100px;
+  padding: 0.2rem 0;
+  transition: all 0.3s ease;
+
+}
+
+& > nav.navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  & > a.navigation-content {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    transition: 0.2s ease;
+
+    &:hover {
+      background: rgb(160, 118, 28);
+    }
+  }
+}
+}
+
+
